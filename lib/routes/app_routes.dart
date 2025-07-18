@@ -6,6 +6,9 @@ import '../presentation/home_screen/home_screen.dart';
 import '../presentation/user_profile/user_profile.dart';
 import '../presentation/product_listing/product_listing.dart';
 import '../presentation/signup_screen/signup_screen.dart';
+import '../presentation/chat_screen/chat_screen.dart';
+import '../presentation/search_screen/search_screen.dart';
+import '../presentation/messages_list_screen/messages_list_screen.dart';
 
 class AppRoutes {
   // TODO: Add your routes here
@@ -17,6 +20,9 @@ class AppRoutes {
   static const String homeScreen = '/home-screen';
   static const String userProfile = '/user-profile';
   static const String productListing = '/product-listing';
+  static const String chatScreen = '/chat-screen';
+  static const String searchScreen = '/search-screen';
+  static const String messagesListScreen = '/messages-list-screen';
 
   static Map<String, WidgetBuilder> routes = {
     initial: (context) => LoginScreen(),
@@ -27,6 +33,9 @@ class AppRoutes {
     homeScreen: (context) => HomeScreen(),
     userProfile: (context) => UserProfile(),
     productListing: (context) => ProductListing(),
+    chatScreen: (context) => const ChatScreen(),
+    searchScreen: (context) => const SearchScreen(),
+    messagesListScreen: (context) => const MessagesListScreen(),
     // TODO: Add your other routes here
   };
 }

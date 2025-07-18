@@ -17,6 +17,12 @@ dependencies:
   google_fonts: ^6.1.0
   supabase_flutter: ^2.8.1
   web: any
+  speech_to_text: ^7.2.0
+  camera: ^0.11.2
+  image_picker: ^1.1.2
+  permission_handler: ^12.0.1
+  record: ^6.0.0
+  intl: any
 dev_dependencies: 
   flutter_test: 
     sdk: flutter

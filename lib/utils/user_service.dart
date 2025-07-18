@@ -1,4 +1,3 @@
-
 import './supabase_service.dart';
 
 class UserService {

@@ -1,6 +1,5 @@
 import 'dart:math';
 
-
 import './supabase_service.dart';
 
 class EmailVerificationService {
